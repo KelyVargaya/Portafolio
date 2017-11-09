@@ -18,7 +18,7 @@ const Proyectos = ({ }) => {
                 <Row >
                     <Col mdOffset={6} md={6} xs={6} > 
                    
-                    <h2>Aqui ira mis proyectos</h2>
+                    <h2>Aqui ira mis proyectos...</h2>
                     
                     </Col>
                 </Row>

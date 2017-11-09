@@ -1,0 +1,19 @@
+#yo{
+    background-image: url(img/fondo2.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.boton1{
+    background: transparent;
+    border: 3px solid black;
+    border-radius: 4px;
+    width: 40%;
+    height: 50px;
+    color: black;
+    font-size: 24px;
+    margin-left: 13px;
+    margin-top: 20px;
+     font-family: 'Pathway Gothic One', sans-serif;
+   
+}

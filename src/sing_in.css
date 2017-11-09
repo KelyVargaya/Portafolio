@@ -6,9 +6,7 @@
    
 }
 
-#about{
-    background-image: url(img/fondo2.png)
-}
+
 header{
     background: #718493;
 }
@@ -23,17 +21,20 @@ header{
 }
 .boton{
     background: transparent;
-    border: 3px solid white;
-    border-radius: 10px;
-    width: 100%;
+    border: 3px solid black;
+    border-radius: 4px;
+    width: 30%;
     height: 50px;
-    color: white;
-    font-size: 17px;
-    margin-bottom: 29px;
+    color: black;
+    font-size: 27px;
+    margin-left: 13px;
+    margin-top: 20px;
+     font-family: 'Pathway Gothic One', sans-serif;
+   
 }
 .boton:hover{
-    background: white;
-    color: #4a5660;
+    background: black;
+    color: white;
 }
 .text-navlink{
     color: #b2c7d8;
@@ -50,10 +51,15 @@ header{
     border-radius: 10px;
 }
 
-h4{
-    color: white;
+h3, h4{
+    font-family: 'Pathway Gothic One', sans-serif;
     margin: 15px;
     font-weight: bold;
+  
+}
+
+h3{
+    font-size: 37px;
 }
 
 .new{
@@ -65,4 +71,8 @@ h4{
     border-radius: 10px;
     padding-top: 10px;
     cursor: pointer;
+}
+.caja{
+    margin-top: 250px;
+    margin-left: 100px;
 }

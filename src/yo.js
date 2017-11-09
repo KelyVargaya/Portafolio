@@ -27,9 +27,9 @@ const Yo = ({ }) => {
                     <p>
                         Estoy fascinado con las tecnologías web y aplicativos moviles por
                         las increíbles innovaciones que producen.
-
+                        <p>
                         Estudie el Laboratoria y estoy lista para empezar cualquier reto.</p>
-                     
+                     </p>
                      <NavLink to="/about"><button className="boton1">SIGUE EXPLORANDO</button></NavLink></div>
                     
                

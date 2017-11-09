@@ -16,6 +16,7 @@ import Home from './home.js';
 import SingUp from './sing_up.js';
 import About from './about.js'
 import Yo from './yo.js'
+import Proyecto from './proyectos.js'
 
 const App = ({ trello }) => {
   return (
@@ -29,6 +30,7 @@ const App = ({ trello }) => {
             <Route exact path="/home" render={() =><Home/>}/>
             <Route exact path="/about" render={() =><About/>}/>
             <Route exact path="/yo" render={() =><Yo/>}/>
+            <Route exact path="/proyectos" render={() =><Proyecto/>}/>
             <Route render={() => <Redirect to="/home" />} />
           </Switch>
         </div>

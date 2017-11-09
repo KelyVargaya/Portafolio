@@ -1,0 +1,9 @@
+#proyecto{
+    background-image: url(img/Estudio.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+h2{
+    color: white;
+}

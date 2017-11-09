@@ -11,3 +11,12 @@
     font-size: 50px;
     font-weight: bold;
 }
+
+.proyecto{
+    background-image: url(img/Estudio.jpg);
+    line-height: 700px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}

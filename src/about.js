@@ -20,13 +20,17 @@ const About = ({ }) => {
                     <NavLink to={"/yo"}>
                     <div className="yo">
                             YO</div>
-                    Iniciar</NavLink> 
+                    </NavLink> 
                         
                    
                     </Col>
-                    <Col lg={6} xs={6}> 
-                    <h1>Mis proyectos</h1>
-                         
+                    <Col  lg={6} xs={6}>
+                    <NavLink to={"/proyectos"}>
+                    <div className="proyecto">
+                            Proyectos</div>
+                    </NavLink> 
+                        
+                   
                     </Col>
                 </Row>
             </Grid>

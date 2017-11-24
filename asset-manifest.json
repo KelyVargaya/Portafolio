@@ -1,11 +1,13 @@
 {
-  "main.css": "static/css/main.bec2f183.css",
-  "main.css.map": "static/css/main.bec2f183.css.map",
-  "main.js": "static/js/main.2e8d3d44.js",
-  "main.js.map": "static/js/main.2e8d3d44.js.map",
+  "main.css": "static/css/main.4a42b25a.css",
+  "main.css.map": "static/css/main.4a42b25a.css.map",
+  "main.js": "static/js/main.24c04265.js",
+  "main.js.map": "static/js/main.24c04265.js.map",
   "static\\media\\Estudio.jpg": "static/media/Estudio.6d719ef2.jpg",
-  "static\\media\\fondo1.png": "static/media/fondo1.5397be71.png",
-  "static\\media\\fondo2.png": "static/media/fondo2.cbda0733.png",
-  "static\\media\\fotoof1.png": "static/media/fotoof1.23ea0a11.png",
-  "static\\media\\logo.svg": "static/media/logo.5d5d9eef.svg"
+  "static\\media\\black1.jpg": "static/media/black1.4dd13373.jpg",
+  "static\\media\\colorblock1.png": "static/media/colorblock1.9e6c4c55.png",
+  "static\\media\\linea.png": "static/media/linea.e9c1c1ee.png",
+  "static\\media\\logo.svg": "static/media/logo.5d5d9eef.svg",
+  "static\\media\\ofi.jpg": "static/media/ofi.5b189cef.jpg",
+  "static\\media\\premios1.png": "static/media/premios1.97c07995.png"
 }

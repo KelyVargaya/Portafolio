@@ -30,7 +30,7 @@ const Yo = ({ }) => {
                         <p>
                         Estudie el Laboratoria y estoy lista para empezar cualquier reto.</p>
                      </p>
-                     <NavLink to="/about"><button className="boton1">SIGUE EXPLORANDO</button></NavLink></div>
+                </div>
                     
                
                     </Col>

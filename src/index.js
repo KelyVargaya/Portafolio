@@ -7,7 +7,6 @@ import { Provider } from "redux-zero/react";
 import store from "./store";
 
 const Index = () => (
-	
 	<Provider store={store}>
 		<App />
 	</Provider>

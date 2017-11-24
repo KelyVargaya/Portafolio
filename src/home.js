@@ -13,6 +13,7 @@ import proyecto3 from "./img/web/sprint.jpg";
 import proyecto4 from "./img/web/coder.jpg";
 import proyecto5 from "./img/web/primes.jpg";
 import proyecto6 from "./img/web/comunidad-sostenible.jpg";
+import cv from "./docs/Kely_Vargaya-cv.pdf";
 
 const Home = ({  }) => {
 	return (    
@@ -49,6 +50,7 @@ const Home = ({  }) => {
                         <p className="parrafo">
                             Y estoy lista para empezar cualquier retos.</p>
                         </p>
+                         <button id="curriculum" class="btn btn-cv center-block wow bounceInRight"><a class="a-none-decoration text-white cv" href={cv} target="_blanck">Descarga mi CV</a></button>
                         </Col>
                         
                             <Col sm={4} md={6} className="portada">

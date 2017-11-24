@@ -7,27 +7,25 @@ import logo from "./img/logi.png";
 import linea from "./img/linea2.png";
 import hackhaton from "./img/premios1.png"
 import {BrowserRouter,Route,Switch,Redirect} from 'react-router-dom';
+import proyecto1 from "./img/web/proyecto1.png";
+import proyecto2 from "./img/web/user-testing-360.jpg";
+import proyecto3 from "./img/web/sprint.jpg";
+import proyecto4 from "./img/web/coder.jpg";
+import proyecto5 from "./img/web/primes.jpg";
+import proyecto6 from "./img/web/comunidad-sostenible.jpg";
 
 const Home = ({  }) => {
 	return (    
 		<div id="home">
-            <Navbar fixedTop className="header">
-            <Navbar.Header>
-                <Navbar.Brand>
-                    <a href="#"><img src={logo} alt=""/></a>
-                </Navbar.Brand>
-                <Navbar.Toggle />
-                </Navbar.Header>
-                <Navbar.Collapse>
-                <Nav pullRight className="menu">
-                    <NavItem eventKey={1} href="#">	<Glyphicon className="icono" glyph="home" /></NavItem>
-                    <NavItem eventKey={2} href="#">	<Glyphicon className="icono" glyph="heart" /></NavItem>
-                    <NavItem eventKey={3} href="#">	<Glyphicon className="icono" glyph="signal" /></NavItem>
-                    <NavItem eventKey={4} href="#"> <Glyphicon className="icono" glyph="user" /></NavItem>
-                    <NavItem eventKey={5} href="#"> <Glyphicon className="icono" glyph="th" /></NavItem>
-                </Nav>
-                </Navbar.Collapse>
-            </Navbar>
+           <div class="topleft ">
+    <a href="#"><img src={logo} alt=""/></a>
+            </div>
+            <div id="mySidenav" class="sidenav">
+            <a href="#" id="about">Inicio</a>
+            <a href="#" id="blog">Sobre Mi</a>
+            <a href="#" id="projects">Proyectos</a>
+            <a href="#" id="contact">Contact</a>
+            </div>
             <div className="contenido">
                 <div id="titulo">
                     <div className="h">
@@ -35,7 +33,7 @@ const Home = ({  }) => {
  
                     </div>
                     <div className="subtitulo">
-                    <h3>Developer fron end</h3>
+                    <h3>Developer Front-End Junior </h3>
                      <h4>"Innovacion, creatividad y tecnología."</h4>
                     </div>
                     <div className="triangle"></div>
@@ -64,12 +62,12 @@ const Home = ({  }) => {
                          <Col sm={8} md={8} >
                         <div id="awards">
                             <Col md={6}>
-                            <h3 className="visible-xs mediano">Reconocimientos</h3>
+                            <h3 className="visible-xs mediano">RECONOCIMIENTO</h3>
                             <img className="hackhaton" src={hackhaton} alt=""/>
                             </Col>
                             <Col md={6}>
-                            <h3 className="hidden-xs">Reconocimientos</h3>
-                            <p>Ganadores de la Hackhaton Perú Sin Anemia organizada por el MIDIS con el proyecto <a className="parrafo" href="https://melanieoc.github.io/hackathon/">HACKNEMIA</a> </p>
+                            <h3 className="hidden-xs">RECONOCIMIENTOS</h3>
+                            <p className="parrafo">Ganadores de la Hackhaton Perú Sin Anemia organizada por el MIDIS con el proyecto <a className="parrafo" href="https://melanieoc.github.io/hackathon/">HACKNEMIA</a> </p>
                             </Col>
                         </div>
                         </Col>
@@ -81,42 +79,136 @@ const Home = ({  }) => {
      {/* SKILLS */}
      <Grid id="skills"> 
      <Row>
-        <Col mdOffset={6} lgOffset={4} md={6} lg={6} xs={12}>
+        <Col mdOffset={6} lgOffset={6} md={6} lg={6} xs={12}>
         <h1>HABILIDADES</h1>
-        <ProgressBar className="skillbar clearfix " label={`Javascript`}>
+        <ProgressBar className="skillbar clearfix " >
             <ProgressBar className="skillbar-title" bsStyle="warning" now={20} key={1} label={`Javascript`}/>
             <ProgressBar className="success" now={56} key={1} />
              <div class="skill-bar-percent"><strong>Intermedio</strong></div>
         </ProgressBar>
-        <ProgressBar className="skillbar clearfix " label={`Javascript`}>
+        <ProgressBar className="skillbar clearfix " >
             <ProgressBar className="skillbar-title" bsStyle="warning" now={20} key={1} label={`React-Redux`}/>
             <ProgressBar className="success1" now={46} key={2} />
             <div class="skill-bar-percent"><strong>Básico</strong></div>
         </ProgressBar>
-        <ProgressBar className="skillbar clearfix " label={`Javascript`}>
+        <ProgressBar className="skillbar clearfix ">
             <ProgressBar className="skillbar-title" bsStyle="warning" now={20} key={1} label={`jQuery`}/>
             <ProgressBar className="success3" now={40} key={3} />
             <div class="skill-bar-percent"><strong>Básico</strong></div>
         </ProgressBar>
-        <ProgressBar className="skillbar clearfix " label={`Javascript`}>
+        <ProgressBar className="skillbar clearfix " >
             <ProgressBar className="skillbar-title" bsStyle="warning" now={20} key={1} label={`Firebase`}/>
             <ProgressBar className="success4" now={33} key={4} />
             <div class="skill-bar-percent"><strong>Básico</strong></div>
         </ProgressBar>
         </Col>
-     
+        
+         <Col md={6} lg={6} xs={12}>
+        <ProgressBar className="skillbar clearfix " >
+            <ProgressBar className="skillbar-title" bsStyle="warning" now={20} key={1} label={`HTML`}/>
+            <ProgressBar className="success4" now={56} key={1} />
+             <div class="skill-bar-percent"><strong>Intermedio</strong></div>
+        </ProgressBar>
+        <ProgressBar className="skillbar clearfix " >
+            <ProgressBar className="skillbar-title" bsStyle="warning" now={20} key={1} label={`CSS`}/>
+            <ProgressBar className="success3" now={56} key={2} />
+            <div class="skill-bar-percent"><strong>Intermedio</strong></div>
+        </ProgressBar>
+        <ProgressBar className="skillbar clearfix " >
+            <ProgressBar className="skillbar-title" bsStyle="warning" now={20} key={1} label={`BOOTSTRAP`}/>
+            <ProgressBar className="success2" now={50} key={3} />
+            <div class="skill-bar-percent"><strong>Intermedio</strong></div>
+        </ProgressBar>
+        <ProgressBar className="skillbar clearfix ">
+            <ProgressBar className="skillbar-title" bsStyle="warning" now={20} key={1} label={`PHOTOSHOP`}/>
+            <ProgressBar className="success" now={42} key={4} />
+            <div class="skill-bar-percent"><strong>Básico</strong></div>
+        </ProgressBar>
+        </Col>
     </Row>
 </Grid>
+           <Grid>
+        <section id="portafolio">
+        <h1>PROYECTOS WEB</h1>
+        <div className="row pt-2">
+          <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <a name="proyectos" />
+            <h2 className="text-azul text-center wow slideInUp">PROYECTOS WEB</h2>
+            
+          </div>
+        </div>
+        <div className="row pt-5">
+          <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <a href="https://melanieoc.github.io/hackathon/" target="_blanck">
+              <img className="img-responsive img-thumbnail wow zoomIn" src={proyecto1} alt="sitio-web-kean" />
+              <div className="divFondo text-center center-block">
+                <h3 className="title-port">HACKNEMIA</h3>
+                <p>Proyecto creado para ayuda</p>
+              </div>
+            </a>
+          </div>
+          <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 margin-sm-xs">
+            <a href="https://kelyvargaya.github.io/Trello-Redux/" target="_blanck">
+              <img className="img-responsive img-thumbnail wow zoomIn" src={proyecto2} alt="sitio-web-testing-360" />
+              <div className="divFondo text-center center-block">
+                <h3>Trello Redux</h3>
+                <p>Organizador de tareas</p>
+              </div>
+            </a>
+          </div>
+          <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 margin-sm-xs">
+            <a href=" https://KelyVargaya.github.io/Game-Laberinto/" target="_blanck">
+              <img className="img-responsive img-thumbnail wow zoomIn" src={proyecto3} alt="sitio-web-sprint" />
+              <div className="divFondo text-center center-block">
+                <h3>LABERINTO GAME</h3>
+                <p>Sitio construido para poder jugar Laberinto con MarioBross.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div className="row pt-5">
+          <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <a href="https://KelyVargaya.github.io/Save-The-Koala-2/" target="_blanck">
+              <img className="img-responsive img-thumbnail wow zoomIn" src={proyecto4} alt="portafolio Coder" />
+              <div className="divFondo text-center center-block">
+                <h3>Save The Koala</h3>
+                <p>Landing Page sobre koalas</p>
+              </div>
+            </a>
+          </div>
+          <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 margin-sm-xs">
+            <a href="https://KelyVargaya.github.io/Memory-Game/" target="_blanck">
+              <img className="img-responsive img-thumbnail wow zoomIn" src={proyecto5} alt="sitio primes" />
+              <div className="divFondo text-center center-block">
+                <h3>Memory Game</h3>
+                <p>El juego de Memoria desarrollado con Jquery</p>
+              </div>
+            </a>
+          </div>
+          <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 margin-sm-xs">
+            <a href="http://www.colca360.com/" target="_blanck">
+              <img className="img-responsive img-thumbnail wow zoomIn" src={proyecto6} alt="sitio comunidad sostenible" />
+              <div className="divFondo text-center center-block">
+                <h3>COLCA 360</h3>
+                <p>Sitio web elaborado para promocionar lugares turisticos del valle del colca con fotografias 360°</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+           </Grid>
+
+
+
            
             <section id="contacto">
-                <div className="row pt-2 pb-5">
-                        <div className="divcontacto col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <Row>
+                    <Col  md={12} lg={12} xs={12} className="divcontacto">
                         <a name="Contacto" />
-                        <h2 className="text-white text-center wow slideInUp">CONTACTO</h2>
-                        <hr className="hr-white wow slideInUp" />
-                        <p className="text-white text-center wow slideInUp">Si te gusto mi trabajo contáctame y trabajemos juntos. <br />
-                            <strong className="wow slideInUp">¡HASTA PRONTO!</strong></p> 
-                        <ul className="text-center cont-icon pt-2 wow slideInUp">
+                        <h2 className="text-white text-center ">CONTACTO</h2>
+                        <p className="text-white text-center contactame">Si te gusto mi trabajo contáctame y trabajemos juntos. <br />
+                            </p> 
+                        <ul className="text-center cont-icon pt-2 ">
                             <li>
                             <a href="https://github.com/KelyVargaya" target="_blank">
                                 <i class="fa fa-github fa-2x text-white" aria-hidden="true"></i>
@@ -140,9 +232,9 @@ const Home = ({  }) => {
                             <p className="text-white redes">(+51) 966 433 672</p>
                             </li>
                         </ul> 
-                        </div>
+                        </Col>
                 
-            </div>
+            </Row>
              </section>
         </div>
 	);

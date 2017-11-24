@@ -45,6 +45,12 @@ color: black;
 #home{
     height: 90vh;
     
+    
+}
+.topleft {
+    position: absolute;
+    top: 22px;
+    left: 26px;
 }
 
 #root{
@@ -85,7 +91,7 @@ width: 80%;
     font-weight: 400;
     font-style: normal;
     line-height: 1.2;
-    font-size: 36px;
+    font-size: 46px;
     margin-bottom: 50px;
     max-width: 80%;
 
@@ -118,9 +124,7 @@ width: 80%;
     background: none;
     
 }
-#home #titulo h3{
-    font-size: 29px;
-}
+
 #titulo{
     padding-left: 30px;
     width: 80%;
@@ -144,21 +148,40 @@ width: 80%;
 }
 .about{
     font-family: 'Rancho', cursive;
-    font-size: 20px;
+    font-size: 25px;
 }
 .icono{
     font-size: 17px;
     color: black; 
 }
+#awards{
+    margin-bottom: 120px;
+}
 #awards h3{
 text-align: center;
 padding-top: 70px;
+font-size: 36px;
+font-family: 'Rancho', cursive;
 font-weight: bold;
 }
 
+#portafolio{
+    margin-top: 80px;
+}
+#portafolio h1{
+font-size: 36px;
+font-family: 'Rancho', cursive;
+font-weight: bold;
+text-align: center;
+}
 
 .parrafo{
     text-align: justify;
+    font-family: 'Rancho', cursive;
+  
+}
+#awards p{
+    font-size: 22px;
 }
 
 .hackhaton{
@@ -167,6 +190,8 @@ font-weight: bold;
 
 #skills h1{
     font-family: 'Rancho', cursive;
+    font-weight: bold;
+    margin-bottom: 30px;
 } 
 .portada{
     text-align: right;
@@ -181,7 +206,18 @@ font-weight: bold;
   margin-top: 60px;
   margin-bottom: 10px;
   padding: 40px;
+  font-family: 'Rancho', cursive;
 }
+#contacto h2{
+ font-size: 37px;
+}
+#contacto p{
+ font-size: 18px;
+}
+#contacto .contactame{
+ font-size: 27px;
+}
+
 ul.cont-icon>li{
   display: inline-block;
   padding-right: 10px;
@@ -319,6 +355,82 @@ ul.cont-icon>li>a>i:hover{
     text-align: right;
 }
 #skills h1{
-    
+    font-weight: bold;
     text-align: center;
+}
+
+
+/*SECCION DE PROYECTOS WEB*/
+
+.divFondo{
+  width: 93%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  padding: 18% 10% 10% 10%;
+  transition-duration: 1s;
+  
+}
+.divFondo h3{
+  font-size: 2em;
+}
+.divFondo p{
+  font-size: 1em;
+  color: #fff;
+}
+.divFondo:hover{
+  opacity: 1;
+  transition-duration: 1s;
+  background-color: rgba(51, 68, 75, 0.61); 
+}
+
+.borde-img{
+  border: 5px #F7F7F7 solid ;
+}
+
+#mySidenav a {
+
+    position:  fixed; /* Position them relative to the browser window */
+    left: -80px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 15px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#about {
+    top: 20px;
+    background-color: black;
+}
+
+#blog {
+    top: 80px;
+    background-color: black; /* Blue */
+}
+
+
+#projects {
+    top: 140px; 
+background: rgba(3,176,239,1);
+background: -moz-linear-gradient(-45deg, rgba(3,176,239,1) 0%, rgba(3,106,162,1) 27%, rgba(4,44,129,1) 65%, rgba(4,39,81,1) 85%, rgba(4,39,81,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(3,176,239,1)), color-stop(27%, rgba(3,106,162,1)), color-stop(65%, rgba(4,44,129,1)), color-stop(85%, rgba(4,39,81,1)), color-stop(100%, rgba(4,39,81,1)));
+background: -webkit-linear-gradient(-45deg, rgba(3,176,239,1) 0%, rgba(3,106,162,1) 27%, rgba(4,44,129,1) 65%, rgba(4,39,81,1) 85%, rgba(4,39,81,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(3,176,239,1) 0%, rgba(3,106,162,1) 27%, rgba(4,44,129,1) 65%, rgba(4,39,81,1) 85%, rgba(4,39,81,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(3,176,239,1) 0%, rgba(3,106,162,1) 27%, rgba(4,44,129,1) 65%, rgba(4,39,81,1) 85%, rgba(4,39,81,1) 100%);
+background: linear-gradient(135deg, rgba(3,176,239,1) 0%, rgba(3,106,162,1) 27%, rgba(4,44,129,1) 65%, rgba(4,39,81,1) 85%, rgba(4,39,81,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#03b0ef', endColorstr='#042751', GradientType=1 );
+}
+
+#contact {
+    top: 200px;
+    background-color: black; /* Light Black */
 }
